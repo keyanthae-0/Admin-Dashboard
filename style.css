@@ -9,10 +9,25 @@ body{
 .sidebar-container{
     height: 100vh;
     flex: 1;
-    border: 3px solid purple;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: darkblue;
+    color: white;
+}
+
+.option{
+    font-size: 2.5rem;
+}
+
+.option-container > .option:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bottom-option-container > .option:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .name-container{
@@ -21,36 +36,33 @@ body{
 
 .option-container{
     flex: 2;
-    border: 3px solid brown;
     width: 100%;
-    text-align: center;
 }
 
 .bottom-option-container{
     flex: 2;
     width: 100%;
-    text-align: center;
-    border: 3px solid yellow;
 }
 
 .header-container{
+    display: grid;
     width: 100%;
-    border: 3px solid red;
     flex: 2;
+    background-color: yellow;
 }
 
 /*Sidebar styles end here*/
 
 .main-content-container{
-    border: 3px solid blue;
     width: 100%;
-    flex: 2;
+    flex: 8;
+    background-color: black;
+    display: grid;
 }
 
 .middle-container{
-    border: 3px solid brown;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    flex: 5;
+    flex: 4;
 }
