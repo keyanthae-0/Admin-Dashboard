@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: darkblue;
+    background-color: rgb(93, 178, 207);
     color: white;
 }
 
@@ -49,6 +49,11 @@ body{
     width: 100%;
     flex: 2;
     background-color: yellow;
+}
+
+.svg-container{
+    border: 3px solid;
+    display: flex;
 }
 
 /*Sidebar styles end here*/
